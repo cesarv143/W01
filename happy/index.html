@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <title>Para ti · Un universo hecho de luz</title>
+  <meta name="description" content="Una experiencia interactiva en 3D: viaja por un túnel de estrellas hasta una galaxia espiral coronada por un corazón de partículas. Hecho para ti." />
+  <meta name="author" content="Para ti" />
+  <meta name="theme-color" content="#000008" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph / redes sociales -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Para ti · Un universo hecho de luz" />
+  <meta property="og:description" content="Viaja por un túnel de estrellas hasta una galaxia espiral con un corazón de partículas." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Para ti" />
+  <meta name="twitter:description" content="Un universo hecho de luz, para ti." />
+
+  <link rel="preconnect" href="https://esm.sh" crossorigin />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Mapa de módulos: todo desde CDN, sin build, sin render en servidor -->
+  <script type="importmap">
+  {
+    "imports": {
+      "react": "https://esm.sh/react@18.3.1",
+      "react-dom": "https://esm.sh/react-dom@18.3.1",
+      "react-dom/client": "https://esm.sh/react-dom@18.3.1/client",
+      "three": "https://esm.sh/three@0.160.0",
+      "htm": "https://esm.sh/htm@3.1.1",
+      "@react-three/fiber": "https://esm.sh/@react-three/fiber@8.15.19?external=react,react-dom,three",
+      "@react-three/drei": "https://esm.sh/@react-three/drei@9.99.0?external=react,react-dom,three,@react-three/fiber"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <noscript>Esta experiencia necesita JavaScript activado.</noscript>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
