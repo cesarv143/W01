@@ -18,7 +18,7 @@ const { damp, lerp, clamp } = THREE.MathUtils;
  *  PERSONALIZA AQUÍ — palabras / cualidades que flotan junto a la galaxia
  *  y el mensaje principal de cumpleaños. Cambia estos textos libremente.
  * ==================================================================== */
-const BIRTHDAY_MESSAGE = 'Feliz cumpleaños linda';
+const BIRTHDAY_MESSAGE = '¡ Feliz cumpleaños linda !';
 const WORDS = [
   'Hermosa', 'Inteligente', 'Valiente', 'Bondadosa',
   'Radiante', 'Divertida', 'Soñadora', 'Única',
