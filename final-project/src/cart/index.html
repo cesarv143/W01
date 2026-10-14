@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sleep Outside | Cart</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="../js/cart.js" type="module"></script>
+  </head>
+
+  <body>
+    <header class="divider">
+      <div class="logo">
+        <img src="/images/noun_Tent_2517.svg" alt="tent image for logo" />
+        <a href="/index.html"> Sleep<span class="highlight">Outside</span></a>
+      </div>
+
+      <div class="cart">
+        <a href="../cart/index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+            
+            <path d="M18.9 32.6c1.1 2.4 2.5 3.3 5.4 3.3..." />
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <main class="divider">
+      <section class="products">
+        <h2>My Cart</h2>
+
+        <ul class="product-list">
+          
+        </ul>
+
+        <div class="cart-footer hide">
+          <p class="cart-total">Total: $<span id="cart-total-value">0.00</span></p>
+          
+          
+          <div id="currency-converter-container" style="margin-top: 15px; padding: 10px; background-color: #f9f9f9; border-radius: 4px;">
+            <label for="currency-select" style="font-weight: bold;">Convert Total to: </label>
+            <select id="currency-select" style="padding: 5px; border-radius: 4px;">
+              <option value="MXN">MXN (Mexican Peso)</option>
+              <option value="EUR">EUR (Euro)</option>
+              <option value="CAD">CAD (Canadian Dollar)</option>
+            </select>
+            <p id="converted-total-text" style="margin-top: 8px; font-weight: bold; color: #303030;"></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>&copy;NOT a real business</footer>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sleep Outside | Checkout</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="./index.js" type="module"></script>
+  </head>
+  <body>
+    <header class="divider" id="main-header">
+    </header>
+    <main class="divider">
+      <section class="products">
+        <h2>Review & Place your Order</h2>
+        <form name="checkout" class="checkout-form">
+          <fieldset>
+            <legend>Shipping</legend>
+            <label>First Name<input type="text" name="fname" required /></label>
+            <label>Last Name<input type="text" name="lname" required /></label>
+            <label>Street<input type="text" name="street" required /></label>
+            <label>City<input type="text" name="city" required /></label>
+            <label>State<input type="text" name="state" required /></label>
+            <label>Zip<input type="text" name="zip" id="zip" required /></label>
+          </fieldset>
+          <fieldset>
+            <legend>Payment</legend>
+            <label>Card Number<input type="text" name="cardNumber" required /></label>
+            <label>Expiration<input type="text" name="expiration" required /></label>
+            <label>Security Code<input type="text" name="code" required /></label>
+          </fieldset>
+          <fieldset class="checkout-summary">
+            <legend>Order Summary</legend>
+            <p>Subtotal (<span id="num-items">0</span> items): <span id="cartTotal">$0.00</span></p>
+            <p>Shipping Estimate: <span id="shipping">$0.00</span></p>
+            <p>Tax: <span id="tax">$0.00</span></p>
+            <p>Order Total: <span id="orderTotal">$0.00</span></p>
+          </fieldset>
+          <button id="checkoutSubmit" type="submit">Place Order</button>
+        </form>
+      </section>
+    </main>
+    <footer id="main-footer"></footer>
+  </body>
+</html>
